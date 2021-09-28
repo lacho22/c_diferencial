@@ -1,14 +1,14 @@
 
 % Octave Script
-% Title			:Clasificación de los números
+% Title			    :Clasificación de los números
 % Description		:Script para recordar conceptos de números
-% Author		:Ing. Horacio RoVe (lacho_t) 
-% Date			:20210401
-% Version		:1
-% Usage			:octave>cd /path/
-% 			:octave>ClasificacionNumeros
-% 			:Requiere aplicación octave, usar su línea de comandos 
-%                       :https://octaveintro.readthedocs.io/en/latest/index.html
+% Author		    :Ing. Horacio RoVe (lacho_t) 
+% Date		    	:20210401
+% Version		    :1
+% Usage			    :octave>cd /path/
+% 		        	:octave>ClasificacionNumeros
+% 		        	:Requiere aplicación octave, usar su línea de comandos 
+%               :https://octaveintro.readthedocs.io/en/latest/index.html
 
 clear
 c_numeros_Naturales = 'ℕ = {1, 2, 3, .... n} si n > 0';
