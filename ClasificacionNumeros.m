@@ -31,7 +31,7 @@ a*b
 
 
 % Propiedad asociativa
-p_asociativa = 'a + ( b + c )';
+p_asociativa = 'a + ( b + c ) prueba edicion';
 p_asociativa2 = 'a ( b c ) = ( a b ) c';
 p_asociativa3 = '3 + ( 8 - 10 ) = ( 8 + 3 ) - 10';
 
