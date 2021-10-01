@@ -13,7 +13,7 @@
 clear
 c_numeros_Naturales = 'ℕ = {1, 2, 3, .... n} si n > 0';
 c_numeros_Enteros = 'ℤ = { -n..., -2, -1, 0, 1, 2,..n }';
-c_numero_Racionales = 'ℚ = { m/n dónde m,n ∈ ℝ, n ≠ 0 }';
+c_numero_Racionales = 'ℚ = { m/n dónde m,n ∈∈∈∈ ℝ, n ≠ 0 }';
 c_numero_Irracionales = 'I = {√n que no puede ser expresada como ℚ, todas  las raíces que no son exactas}';
 c_numero_Reales = 'ℝ = { I, ℚ, ℤ, ℕ }';
 
