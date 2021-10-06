@@ -20,6 +20,7 @@ c_numero_Reales = 'ℝ = { I, ℚ, ℤ, ℕ }';
 % Propiedades de los números, sean a,b,c,d,e ∈ ℝ
 
 % Propiedades de ∈ (Cerradura)
+display('Propiedades de Cerradura')
 p_cerradura = 'a + b ∈ ℝ';
 p_cerradura2 = 'ab ∈ ℝ';
 p_cerradura3 = '7 + 9 ∈ ℕ';
@@ -33,29 +34,57 @@ a*b
 
 
 % Propiedad asociativa
+display('Propiedad asociativa')
 p_asociativa = 'a + ( b + c ) prueba edicion';
 p_asociativa2 = 'a ( b c ) = ( a b ) c';
 p_asociativa3 = '3 + ( 8 - 10 ) = ( 8 + 3 ) - 10';
+c=3;
+a+(b+c)
+c+(a+b)
 
 % Propiedad conmutativa
+display('Propiedad conmutativa')
 p_conmutativa = 'a + b = b + a';
 p_conmutativa22 = 'a b = b a';
+a+b
+b+a
+a*b
+b*a
 
 % Propiedad distributiva
+display('Propiedad distributiva')
 p_distributiva = 'a ( b + c ) = a b + a c'; 
+a*(b+c)
+a*b+a*c
 
 % Neutro aditivo
+display('Neutro aditivo')
 p_neutroA = 'a + 0 = a';
 p_neutroA2 = 'Ojo: a + 0 = 0 + a ---> es conmutativa';
+a+0
 
 % Neutro multiplicativo
+display('Neutro multiplicativo')
 p_neutroM = 'a ( 1 ) = a';
+a(1)
 
 % Inverso aditivo
+display('Inverso aditivo')
 p_inversoA = 'a + -a = 0';
+a+-a
 
 % Inverso multiplicativo o recíproco
+display('Inverso multiplicativo')
 p_inversoM = 'a ( 1/a ) = 1';
+a*(1/a)
+% Propiedad transitiva (| enconces)
+p_transitiva = 'si a > b y b > c | a > c';
+p_transitiva2 = 'si a = b y b = c | a = c';
+
+% Tricotomía (raíz del algebra) siempre se pueden comparar
+p_tricotomia = 'a > b';
+p_tricotomia2 = 'a = b';
+p_tricotomia3 = 'a < b';
 
 % Propiedad transitiva (| entonces) 
   disp '9. Propiedad transitiva'
@@ -88,6 +117,7 @@ endif
   if (a==c)
     disp ("Por lo que a es igual que c");
 endif
+
 
 % signos de agrupación
 s_agrupacion = '{ [ ( ) ] }';
