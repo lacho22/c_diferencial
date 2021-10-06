@@ -35,33 +35,33 @@ a*b
 
 % Propiedad asociativa
 display('Propiedad asociativa')
-p_asociativa = 'a + ( b + c ) prueba edicion';
-a=5
-b=6
-c=7 
+p_asociativa = 'a + ( b + c )= (a + b) + c';
+a=5;
+b=6;
+c=7;
 % Adicion
 a+(b+c)
+(a+b)+c
 p_asociativa2 = 'a ( b c ) = ( a b ) c';
-a=5
-b=4
-c=3
+a=5;
+b=4;
+c=3;
 % Producto
 a*(b*c)
-% Producto
 (a*b)*c
 p_asociativa3 = '3 + ( 8 - 10 ) = ( 8 + 3 ) - 10';
 
 % Propiedad conmutativa
 display('Propiedad conmutativa')
 p_conmutativa = 'a + b = b + a';
-a=3
-b=6
+a=3;
+b=6;
 % Adicion
 a+b
 b+a
-p_conmutativa22 = 'a b = b a';
-a=3
-b=4
+p_conmutativa2 = 'a b = b a';
+a=3;
+b=4;
 % Producto
 a*b
 b*a
@@ -69,9 +69,9 @@ b*a
 % Propiedad distributiva
 display('Propiedad distributiva')
 p_distributiva = 'a ( b + c ) = a b + a c'; 
-a=4
-b=5
-c=6
+a=4;
+b=5;
+c=6;
 % Prooducto
 a*(b+c)
 a*b+a*c
@@ -79,11 +79,12 @@ a*b+a*c
 % Neutro aditivo
 display('Neutro aditivo')
 p_neutroA = 'a + 0 = a';
-a=3
+a=3;
 % Adicion
 a+0
+a
 p_neutroA2 = 'Ojo: a + 0 = 0 + a ---> es conmutativa';
-a=3
+a=3;
 % Adicion
 a+0
 0+a
@@ -91,66 +92,67 @@ a+0
 % Neutro multiplicativo
 display('Neutro multiplicativo')
 p_neutroM = 'a ( 1 ) = a';
-a=3
+a=3;
 % Producto
 a*(1)
+a
 % Inverso aditivo
 display('Inverso aditivo')
 p_inversoA = 'a + -a = 0';
-a=3
+a=3;
 % Adicion Sutraccion
 a+-a
 
 % Inverso multiplicativo o recíproco
 display('Inverso multiplicativo')
 p_inversoM = 'a ( 1/a ) = 1';
-a=3
+a=3;
 % Multiplicacion cociente
 a*(1/a)
 % Propiedad transitiva (| enconces)
 p_transitiva = 'si a > b y b > c | a > c';
-a=5
-b=4
-c=3
+a=5;
+b=4;
+c=3;
 a>b
 b>c
 a>c
 p_transitiva2 = 'si a = b y b = c | a = c';
-a=2
-b=2
-c=2
+a=2;
+b=2;
+c=2;
 a=b
 b=c
 a=c
 
 % Tricotomía (raíz del algebra) siempre se pueden comparar
 p_tricotomia = 'a > b';
-a=3
-b=2
+a=3;
+b=2;
 a>b
 p_tricotomia2 = 'a = b';
-a=3
-b=3
+a=3;
+b=3;
 b=a
 p_tricotomia3 = 'a < b';
-a=2
-b=3
+a=2;
+b=3;
 a<b
 
 % Propiedad transitiva (| entonces) 
   disp '9. Propiedad transitiva'
   disp ("Para esta propiedad usaremos otras variables, las cuales son:")
 p_transitiva = 'si a>b y b>c | a>c';
-a=7
-b=6
-c=5
+a=7;
+b=6;
+c=5;
 a>b
 b>c
 a>c
 p_transitiva2 = 'si a=b y b=c | a=c';
-a = 5
-b = 5
-c = 5
+a = 5;
+b = 5;
+c = 5;
 a=b
 b=c
 a=c
@@ -165,9 +167,9 @@ endif
 endif
   disp ("10. Propiedad transitiva 2")
   disp ("Volveremos a usar otras variables, las cuales son:")
-a = 20
-b = 20
-c = 20
+a = 20;
+b = 20;
+c = 20;
    if (a==b)
     disp ("En este caso a es igual que b");
   endif
