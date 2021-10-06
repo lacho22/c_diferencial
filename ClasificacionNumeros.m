@@ -26,7 +26,9 @@ p_cerradura3 = '7 + 9 ∈ ℕ';
 p_cerradura4 = '∈ = pertenecia';
 a=3;
 b=5;
+% Adición 
 a+b
+% Producto
 a*b
 
 
