@@ -55,14 +55,37 @@ p_inversoA = 'a + -a = 0';
 % Inverso multiplicativo o recíproco
 p_inversoM = 'a ( 1/a ) = 1';
 
-% Propiedad transitiva (| enconces)
-p_transitiva = 'si a > b y b > c | a > c';
-p_transitiva2 = 'si a = b y b = c | a = c';
-
-% Tricotomía (raíz del algebra) siempre se pueden comparar
-p_tricotomia = 'a > b';
-p_tricotomia2 = 'a = b';
-p_tricotomia3 = 'a < b';
+% Propiedad transitiva (| entonces) 
+  disp '9. Propiedad transitiva'
+  disp ("Para esta propiedad usaremos otras variables, las cuales son:")
+p_transitiva = 'si a>b y b>c | a>c';
+p_transitiva2 = 'si a=b y b=c | a=c';
+a = 36
+b = 24
+c = 19
+  if (a > b)
+    disp ("En este caso a es mayor que b");
+  endif
+  if (b>c)
+    disp ("Y b es mayor que c");
+endif
+  if (a>c)
+    disp ("Por lo que a es mayor que c");
+endif
+  disp ("10. Propiedad transitiva 2")
+  disp ("Volveremos a usar otras variables, las cuales son:")
+a = 20
+b = 20
+c = 20
+   if (a==b)
+    disp ("En este caso a es igual que b");
+  endif
+  if (b==c)
+    disp ("Y b es igual que c");
+endif
+  if (a==c)
+    disp ("Por lo que a es igual que c");
+endif
 
 % signos de agrupación
 s_agrupacion = '{ [ ( ) ] }';
