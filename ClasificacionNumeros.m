@@ -124,6 +124,14 @@ c=2;
 a=b
 b=c
 a=c
+%Propiedad transitividad 
+p_transitiv=  'si a   >  b  & b >  c |  a  >  c ' ;
+p_transitiva2 =  ' si  a  =  b  & b  =  c | a  =  c';
+a = 12;
+b= 6;
+c = 3;
+a >  b  && b > c | a > c 
+a == b  && b == c  |  a == c 
 
 % Tricotomía (raíz del algebra) siempre se pueden comparar
 p_tricotomia = 'a > b';
