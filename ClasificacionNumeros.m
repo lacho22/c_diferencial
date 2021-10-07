@@ -17,9 +17,9 @@ c_numero_Racionales = 'ℚ = { m/n dónde m,n ∈ ℝ, n ≠ 0 }';
 c_numero_Irracionales = 'I = {√n que no puede ser expresada como ℚ, todas  las raíces que no son exactas}';
 c_numero_Reales = 'ℝ = { I, ℚ, ℤ, ℕ }';
 
-disp('Axiomas(Propiedades) de Numeros Reales');
-disp('Axiomas Algebraicos');
-disp('');
+display('Axiomas(Propiedades) de Numeros Reales');
+display('Axiomas Algebraicos');
+display('');
 % Propiedades de los números, sean a,b,c,d,e ∈ ℝ
 
 % Propiedades de ∈ (Cerradura)
@@ -30,61 +30,61 @@ p_cerradura3 = '7 + 9 ∈ ℕ';
 p_cerradura4 = '∈ = pertenecia';
 a=3;
 b=5;
-disp('');
-disp('Adición);
+display('');
+display('Adición);
 % Adición 
 a+b
-disp('');
-disp('Producto');
+display('');
+display('Producto');
 % Producto
 a*b
 
 
 % Propiedad asociativa
-disp('');
+display('');
 display('Propiedad asociativa')
 p_asociativa = 'a + ( b + c )= (a + b) + c';
 a=5;
 b=6;
 c=7;
 % Adicion
-disp('');
-disp('Adición');
+display('');
+display('Adición');
 a+(b+c)
 (a+b)+c
 p_asociativa2 = 'a ( b c ) = ( a b ) c';
 a=5;
 b=4;
 c=3;
-disp('');
-disp('Producto');
+display('');
+display('Producto');
 % Producto
 a*(b*c)
 (a*b)*c
 p_asociativa3 = '3 + ( 8 - 10 ) = ( 8 + 3 ) - 10';
 
 % Propiedad conmutativa
-disp('');
+display('');
 display('Propiedad conmutativa')
 p_conmutativa = 'a + b = b + a';
 a=3;
 b=6;
 % Adicion
-disp('');
-disp('Adición');
+display('');
+display('Adicion');
 a+b
 b+a
 p_conmutativa2 = 'a b = b a';
 a=3;
 b=4;
 % Producto
-disp('');
-disp('Producto');
+display('');
+display('Producto');
 a*b
 b*a
 
 % Propiedad distributiva
-disp('');
+display('');
 display('Propiedad distributiva')
 p_distributiva = 'a ( b + c ) = a b + a c'; 
 a=4;
@@ -95,14 +95,14 @@ a*(b+c)
 a*b+a*c
 
 % Neutro aditivo
-disp('');
+display('');
 display('Neutro aditivo')
 p_neutroA = 'a + 0 = a';
 a=3;
 % Adicion
-disp('');
-disp('Adicion');
-disp('El elemento neutro aditivo es el 0');
+display('');
+display('Adicion');
+display('El elemento neutro aditivo es el 0');
 
 p_neutroA2 = 'Ojo: a + 0 = 0 + a ---> es conmutativa';
 a=3;
@@ -111,16 +111,16 @@ a+0
 0+a
 
 % Neutro multiplicativo
-disp('');
+display('');
 display('Neutro multiplicativo');
-disp('El elemento neutro multiplicativo es el 1');
+display('El elemento neutro multiplicativo es el 1');
 p_neutroM = 'a ( 1 ) = a';
 a=3;
 % Producto
 a*(1)
 a
 % Inverso aditivo
-disp('');
+display('');
 display('Inverso aditivo');
 p_inversoA = 'a + -a = 0';
 a=3;
@@ -128,7 +128,7 @@ a=3;
 a+-a
 
 % Inverso multiplicativo o recíproco
-disp('');
+display('');
 display('Inverso multiplicativo');
 p_inversoM = 'a ( 1/a ) = 1';
 a=3;
@@ -136,14 +136,14 @@ a=3;
 a*(1/a)
 
 % Propiedad transitiva (| enconces)
-disp('');
-disp('Axiomas de orden');
-disp('');
-disp('Propiedad transitiva');
+display('');
+display('Axiomas de orden');
+display('');
+display('Propiedad transitiva');
 
 % Tricotomía (raíz del algebra) siempre se pueden comparar
-disp('');
-disp('Triconomia');
+display('');
+display('Triconomia');
 p_tricotomia = 'a > b';
 a=3;
 b=2;
@@ -158,9 +158,9 @@ b=3;
 a<b
 
 % Propiedad transitiva (| entonces) 
-disp('');  
-disp('Propiedad transitiva');
-  disp ("Para esta propiedad usaremos otras variables, las cuales son:")
+display('');  
+display('Propiedad transitiva');
+  display('Para esta propiedad usaremos otras variables, las cuales son:');
 p_transitiva = 'si a>b y b>c | a>c';
 a=7;
 b=6;
@@ -176,33 +176,33 @@ a=b
 b=c
 a=c
   if (a > b)
-    disp ("En este caso a es mayor que b");
+    display ('En este caso a es mayor que b');
   endif
   if (b>c)
-    disp ("Y b es mayor que c");
+    display ('Y b es mayor que c');
 endif
   if (a>c)
-    disp ("Por lo que a es mayor que c");
+    display ('Por lo que a es mayor que c');
 endif
-  disp ("10. Propiedad transitiva 2")
-  disp ("Volveremos a usar otras variables, las cuales son:")
+  display ('10. Propiedad transitiva 2');
+  display ('Volveremos a usar otras variables, las cuales son:');
 a = 20;
 b = 20;
 c = 20;
    if (a==b)
-    disp ("En este caso a es igual que b");
+    display ('En este caso a es igual que b');
   endif
   if (b==c)
-    disp ("Y b es igual que c");
+    display ('Y b es igual que c');
 endif
   if (a==c)
-    disp ("Por lo que a es igual que c");
+    display ('Por lo que a es igual que c');
 endif
 
 
 % signos de agrupación
-disp('');
-disp('Signos de Agrupación');
+display('');
+display('Signos de Agrupación');
 s_agrupacion = '{ [ ( ) ] }';
 conjunto='{R (I) [Q (Z (N) ) ] };
 
