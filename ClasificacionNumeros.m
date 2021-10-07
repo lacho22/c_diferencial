@@ -119,7 +119,8 @@ p_inversoM = 'a ( 1/a ) = 1';
 a=3;
 a*(1/a)
 
-% Propiedad transitiva (| enconces)
+% Propiedad transitiva (| entonces)
+disp ('Propiedad transitiva(| entonces)')
 p_transitiva = 'si a > b y b > c | a > c';
 a=5;
 b=4;
@@ -128,6 +129,7 @@ a>b
 b>c
 a>c
 
+disp ('Esta es la propiedad transitiva 2');
 p_transitiva2 = 'si a = b y b = c | a = c';
 a=2;
 b=2;
@@ -138,7 +140,7 @@ a=c
 %Propiedad transitividad 
 p_transitiv=  'si a   >  b  & b >  c |  a  >  c ' ;
 p_transitiva2 =  ' si  a  =  b  & b  =  c | a  =  c';
-disp (' Propiedad Transitividad')
+disp (' Propiedad Transitividad');
 a = 12;
 b= 6;
 c = 3;
@@ -151,6 +153,7 @@ a=3;
 b=2;
 a>b
 
+disp ('Esta es la propiedad tricotomía 2');
 p_tricotomia2 = 'a = b';
 a=3;
 b=3;
