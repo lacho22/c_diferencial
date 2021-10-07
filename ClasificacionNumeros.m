@@ -20,6 +20,8 @@ c_numero_Reales = 'ℝ = { I, ℚ, ℤ, ℕ }';
 % Propiedades de los números, sean a,b,c,d,e ∈ ℝ
 
 % Propiedades de ∈ (Cerradura)
+display('');
+display('Axiomas Algebraicos');
 display('Propiedades de Cerradura');
 p_cerradura = 'a + b ∈ ℝ';
 a=3;
@@ -34,6 +36,7 @@ p_cerradura4 = '∈ = pertenecia';
 '{-?, -3, -2, -1, 0, 1, 2, 3, ?}';
 
 % Propiedad asociativa
+display('');
 display('Propiedad asociativa');
 p_asociativa = 'a + ( b + c )';
 a=5;
@@ -63,6 +66,7 @@ a+(b-c)
 (b+a)-c
 
 % Propiedad conmutativa
+display('');
 display('Propiedad conmutativa');
 p_conmutativa = 'a + b = b + a';
 a=3;
@@ -82,6 +86,7 @@ a*b
 b*a
 
 % Propiedad distributiva
+display('');
 display('Propiedad distributiva');
 p_distributiva = 'a ( b + c ) = a b + a c'; 
 a=4;
@@ -91,7 +96,9 @@ a*(b+c)
 a*b+(a*c)
 
 % Neutro aditivo
-display('Neutro aditivo');
+display('');
+display('Elemento Neutro aditivo');
+display('El elemento Neotro Aditivo es 0');
 p_neutroA = 'a + 0 = a';
 a=3;
 a+0
@@ -102,11 +109,14 @@ a+0;
 0+a
 
 % Neutro multiplicativo
+display('');
 display('Neutro multiplicativo');
+display('El elemento Neutro Multiplicativo es 1');
 p_neutroM = 'a ( 1 ) = a';
 a=3;
 a*(1)
 
+display('');
 % Inverso aditivo
 display('Inverso aditivo');
 p_inversoA = 'a + -a = 0';
@@ -114,38 +124,28 @@ a=3;
 a+(-a)
 
 % Inverso multiplicativo o recíproco
+display('');
 display('Inverso multiplicativo')
 p_inversoM = 'a ( 1/a ) = 1';
 a=3;
 a*(1/a)
 
-% Propiedad transitiva (| enconces)
-p_transitiva = 'si a > b y b > c | a > c';
-a=5;
-b=4;
-c=3;
-a>b
-b>c
-a>c
+% Propiedad transitiva (| enconces
+display('');
+display('Axiomas de orden');
 
-p_transitiva2 = 'si a = b y b = c | a = c';
-a=2;
-b=2;
-c=2;
-a=b
-b=c
-a=c
 %Propiedad transitividad 
 p_transitiv=  'si a   >  b  & b >  c |  a  >  c ' ;
 p_transitiva2 =  ' si  a  =  b  & b  =  c | a  =  c';
-disp (' Propiedad Transitividad')
+disp (' Propiedad Transitividad');
 a = 12;
 b= 6;
 c = 3;
-a >  b  && b > c | a > c 
-a == b  && b == c  |  a == c 
+p_transitiva3='a >  b  && b > c | a > c';
+p_transitiva4='a == b  && b == c  |  a == c';
 
 % Tricotomía (raíz del algebra) siempre se pueden comparar
+display('');
 p_tricotomia = 'a > b';
 a=3;
 b=2;
@@ -162,8 +162,9 @@ b=3;
 a<b
 
 % Propiedad transitiva (| entonces) 
-  disp ('9. Propiedad transitiva');
-  disp ('Para esta propiedad usaremos otras variables, las cuales son:');
+display('');
+  disp ('Propiedad transitiva');
+
 p_transitiva = 'si a>b y b>c | a>c';
 a=7;
 b=6;
@@ -187,8 +188,8 @@ endif
   if (a>c)
     disp ('Por lo que a es mayor que c');
 endif
-  disp ('10. Propiedad transitiva 2')
-  disp ('Volveremos a usar otras variables, las cuales son:')
+  disp ('Propiedad transitiva 2');
+  
 a = 20;
 b = 20;
 c = 20;
