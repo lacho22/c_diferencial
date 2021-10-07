@@ -85,12 +85,15 @@ b+a
 
 
 p_conmutativa =  'a+b=b+a';
-a=5
-b=4
+a=5;
+b=4;
 a+b
 b+a
 
 % Adicion
+p_conmutativa1 = 'a+ b = b + a '
+a = 21 ;  
+b = 22 ;
 a+b
 b+a
 
@@ -158,9 +161,23 @@ display('Inverso multiplicativo')
 p_inversoM = 'a ( 1/a ) = 1';
 a=3;
 a*(1/a)
- 
+
+% Propiedad transitiva  (|  entonces)
 p_transitiva=  'si a   >  b  & b >  c |  a  >  c ' ;
-p_transitiva2 =  ' si  a  =  b  & b  =  c | a  =  c';
+a = 3 ;
+b = 2 ;
+c = 2 ;
+a>b
+b>c
+a>c
+
+p_transitiva2 = 'si a = b y b = c | a = c';
+a=2;
+b=2;
+c=2;
+a=b
+b=c
+a=c
 
 disp (' Propiedad Transitividad');
 
