@@ -34,7 +34,7 @@ p_cerradura4 = '∈ = pertenecia';
 '{-?, -3, -2, -1, 0, 1, 2, 3, ?}';
 
 % Propiedad asociativa
-display('Propiedad asociativa');
+display('PROPIEDAD ASOCIATIVA:');
 p_asociativa = 'a + ( b + c )';
 a=5;
 b=6;
@@ -63,7 +63,7 @@ a+(b-c)
 (b+a)-c
 
 % Propiedad conmutativa
-display('Propiedad conmutativa');
+display('PROPIEDAD COMUTARIVA:');
 p_conmutativa = 'a + b = b + a';
 a=3;
 b=6;
@@ -80,7 +80,7 @@ a*b
 b*a
 
 % Propiedad distributiva
-display('Propiedad distributiva')
+display('PROPIEDAD DISTRIBUTIVA:')
 p_distributiva = 'a ( b + c ) = a b + a c'; 
 a=4;
 b=5;
@@ -89,7 +89,7 @@ a*(b+c)
 a*b+(a*c)
 
 % Neutro aditivo
-display('Neutro aditivo')
+display('NEUTRO ADITIVO:')
 p_neutroA = 'a + 0 = a';
 a=3;
 a+0
@@ -100,19 +100,19 @@ a+0;
 0+a
 
 % Neutro multiplicativo
-display('Neutro multiplicativo');
+display('NEUTRO MULTIPLICATIVO:');
 p_neutroM = 'a ( 1 ) = a';
 a=3;
 a*(1)
 
 % Inverso aditivo
-display('Inverso aditivo');
+display('INVERSO ADITIVO:');
 p_inversoA = 'a + -a = 0';
 a=3;
 a+(-a)
 
 % Inverso multiplicativo o recíproco
-display('Inverso multiplicativo')
+display('INVERSO MULTIPLICATIVO:')
 p_inversoM = 'a ( 1/a ) = 1';
 a=3;
 a*(1/a)
