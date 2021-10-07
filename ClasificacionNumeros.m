@@ -71,6 +71,8 @@ a+b
 b+a
 
 % Adicion
+a=4
+b=5
 a+b
 b+a
 p_conmutativa2 = 'a b = b a';
@@ -136,6 +138,7 @@ a=c
 %Propiedad transitividad 
 p_transitiv=  'si a   >  b  & b >  c |  a  >  c ' ;
 p_transitiva2 =  ' si  a  =  b  & b  =  c | a  =  c';
+disp (' Propiedad Transitividad')
 a = 12;
 b= 6;
 c = 3;
