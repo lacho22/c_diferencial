@@ -18,6 +18,10 @@ c_numero_Racionales = 'ℚ = { m/n dónde m,n ∈ ℝ, n ≠ 0 }';
 c_numero_Irracionales = 'I = {√n que no puede ser expresada como ℚ, todas  las raíces que no son exactas}';
 c_numero_Reales = 'ℝ = { I, ℚ, ℤ, ℕ }';
 
+disp 'Nuestras variables son'
+  a = 32
+  b = 55
+  c = 12
 % Propiedades de los números, sean a,b,c,d,e ∈ ℝ
 
 % Propiedades de ∈ (Cerradura);
