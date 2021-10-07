@@ -17,6 +17,9 @@ c_numero_Racionales = 'ℚ = { m/n dónde m,n ∈ ℝ, n ≠ 0 }';
 c_numero_Irracionales = 'I = {√n que no puede ser expresada como ℚ, todas  las raíces que no son exactas}';
 c_numero_Reales = 'ℝ = { I, ℚ, ℤ, ℕ }';
 
+disp('Axiomas(Propiedades) de Numeros Reales');
+disp('Axiomas Algebraicos');
+disp('');
 % Propiedades de los números, sean a,b,c,d,e ∈ ℝ
 
 % Propiedades de ∈ (Cerradura)
@@ -27,46 +30,61 @@ p_cerradura3 = '7 + 9 ∈ ℕ';
 p_cerradura4 = '∈ = pertenecia';
 a=3;
 b=5;
+disp('');
+disp('Adición);
 % Adición 
 a+b
+disp('');
+disp('Producto');
 % Producto
 a*b
 
 
 % Propiedad asociativa
+disp('');
 display('Propiedad asociativa')
 p_asociativa = 'a + ( b + c )= (a + b) + c';
 a=5;
 b=6;
 c=7;
 % Adicion
+disp('');
+disp('Adición');
 a+(b+c)
 (a+b)+c
 p_asociativa2 = 'a ( b c ) = ( a b ) c';
 a=5;
 b=4;
 c=3;
+disp('');
+disp('Producto');
 % Producto
 a*(b*c)
 (a*b)*c
 p_asociativa3 = '3 + ( 8 - 10 ) = ( 8 + 3 ) - 10';
 
 % Propiedad conmutativa
+disp('');
 display('Propiedad conmutativa')
 p_conmutativa = 'a + b = b + a';
 a=3;
 b=6;
 % Adicion
+disp('');
+disp('Adición');
 a+b
 b+a
 p_conmutativa2 = 'a b = b a';
 a=3;
 b=4;
 % Producto
+disp('');
+disp('Producto');
 a*b
 b*a
 
 % Propiedad distributiva
+disp('');
 display('Propiedad distributiva')
 p_distributiva = 'a ( b + c ) = a b + a c'; 
 a=4;
@@ -77,12 +95,15 @@ a*(b+c)
 a*b+a*c
 
 % Neutro aditivo
+disp('');
 display('Neutro aditivo')
 p_neutroA = 'a + 0 = a';
 a=3;
 % Adicion
-a+0
-a
+disp('');
+disp('Adicion');
+disp('El elemento neutro aditivo es el 0');
+
 p_neutroA2 = 'Ojo: a + 0 = 0 + a ---> es conmutativa';
 a=3;
 % Adicion
@@ -90,42 +111,39 @@ a+0
 0+a
 
 % Neutro multiplicativo
-display('Neutro multiplicativo')
+disp('');
+display('Neutro multiplicativo');
+disp('El elemento neutro multiplicativo es el 1');
 p_neutroM = 'a ( 1 ) = a';
 a=3;
 % Producto
 a*(1)
 a
 % Inverso aditivo
-display('Inverso aditivo')
+disp('');
+display('Inverso aditivo');
 p_inversoA = 'a + -a = 0';
 a=3;
 % Adicion Sutraccion
 a+-a
 
 % Inverso multiplicativo o recíproco
-display('Inverso multiplicativo')
+disp('');
+display('Inverso multiplicativo');
 p_inversoM = 'a ( 1/a ) = 1';
 a=3;
 % Multiplicacion cociente
 a*(1/a)
+
 % Propiedad transitiva (| enconces)
-p_transitiva = 'si a > b y b > c | a > c';
-a=5;
-b=4;
-c=3;
-a>b
-b>c
-a>c
-p_transitiva2 = 'si a = b y b = c | a = c';
-a=2;
-b=2;
-c=2;
-a=b
-b=c
-a=c
+disp('');
+disp('Axiomas de orden');
+disp('');
+disp('Propiedad transitiva');
 
 % Tricotomía (raíz del algebra) siempre se pueden comparar
+disp('');
+disp('Triconomia');
 p_tricotomia = 'a > b';
 a=3;
 b=2;
@@ -140,7 +158,8 @@ b=3;
 a<b
 
 % Propiedad transitiva (| entonces) 
-  disp '9. Propiedad transitiva'
+disp('');  
+disp('Propiedad transitiva');
   disp ("Para esta propiedad usaremos otras variables, las cuales son:")
 p_transitiva = 'si a>b y b>c | a>c';
 a=7;
@@ -182,5 +201,9 @@ endif
 
 
 % signos de agrupación
+disp('');
+disp('Signos de Agrupación');
 s_agrupacion = '{ [ ( ) ] }';
-'{R (I) [Q (Z (N) ) ] }
+conjunto='{R (I) [Q (Z (N) ) ] };
+
+
