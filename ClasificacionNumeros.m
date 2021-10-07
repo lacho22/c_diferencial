@@ -47,6 +47,12 @@ a=5;
 b=6;
 c=7;
 a+(b+c)
+p_asosiativa =  'a + (b + c)';
+A=3;
+B=5;
+C =2; 
+A+(B+C)
+(A+B)+C
 
 p_asociativa2 = 'a ( b c ) = ( a b ) c';
 disp('asiciativa multiplicacion');
@@ -73,6 +79,17 @@ b=6;
 a+b
 b+a
 
+
+p_conmutativa =  'a+b=b+a';
+a=5
+b=4
+a+b
+b+a
+
+% Adicion
+a+b
+b+a
+
 p_conmutativa2 = 'a b = b a';
 disp('conmutativa multiplicacio');
 a=3;
@@ -89,11 +106,22 @@ c=6;
 a*(b+c)
 a*b+(a*c)
 
+p_distributiva='a(b+c)=ab+ac';
+a=2
+b=3
+c=5
+a*(b+c)
+(a*b)+(a*c)
+
 % Neutro aditivo
 display('Elemento Neutro aditivo');
 display('El elemento Neotro Aditivo es 0');
 p_neutroA = 'a + 0 = a';
 a=3;
+a+0
+
+p_neutroA='a+0=a';
+a=7;
 a+0
 
 p_neutroA2 = 'Ojo: a + 0 = 0 + a ---> es conmutativa';
@@ -109,6 +137,12 @@ p_neutroM = 'a ( 1 ) = a';
 a=3;
 a*(1)
 
+
+p_neutroM='a(1)=a';
+a=5;
+a*1
+
+
 % Inverso aditivo
 display('Inverso aditivo');
 p_inversoA = 'a + -a = 0';
@@ -123,7 +157,9 @@ a*(1/a)
  
 p_transitiva=  'si a   >  b  & b >  c |  a  >  c ' ;
 p_transitiva2 =  ' si  a  =  b  & b  =  c | a  =  c';
+
 disp (' Propiedad Transitividad');
+
 a = 12;
 b= 6;
 c = 3;
