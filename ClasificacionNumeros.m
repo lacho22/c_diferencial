@@ -22,47 +22,60 @@ c_numero_Reales = 'ℝ = { I, ℚ, ℤ, ℕ }';
 % Propiedades de ∈ (Cerradura)
 display('Propiedades de Cerradura')
 p_cerradura = 'a + b ∈ ℝ';
-p_cerradura2 = 'ab ∈ ℝ';
-p_cerradura3 = '7 + 9 ∈ ℕ';
-p_cerradura4 = '∈ = pertenecia';
 a=3;
 b=5;
-% Adición 
 a+b
-% Producto
+p_cerradura2 = 'ab ∈ ℝ';
+a=2;
+b=6;
 a*b
-
+p_cerradura3 = '7 + 9 ∈ ℕ';
+p_cerradura4 = '∈ = pertenecia';
+'{-?, -3, -2, -1, 0, 1, 2, 3, ?}';
 
 % Propiedad asociativa
-display('Propiedad asociativa')
-p_asociativa = 'a + ( b + c )= (a + b) + c';
+display('Propiedad asociativa');
+p_asociativa = 'a + ( b + c )';
 a=5;
 b=6;
 c=7;
-% Adicion
 a+(b+c)
-(a+b)+c
+
+p_asociativa2 = 'a ( b c ) = ( a b ) c';
+a=5;
+b=1;
+c=2;
+a*(b*c)
+(a*b)*c
+
 p_asociativa2 = 'a ( b c ) = ( a b ) c';
 a=5;
 b=4;
 c=3;
-% Producto
 a*(b*c)
 (a*b)*c
+
 p_asociativa3 = '3 + ( 8 - 10 ) = ( 8 + 3 ) - 10';
+a=4;
+b=8;
+c=12;
+a+(b-c)
+(b+a)-c
 
 % Propiedad conmutativa
-display('Propiedad conmutativa')
+display('Propiedad conmutativa');
 p_conmutativa = 'a + b = b + a';
 a=3;
 b=6;
+a+b
+b+a
+
 % Adicion
 a+b
 b+a
 p_conmutativa2 = 'a b = b a';
 a=3;
 b=4;
-% Producto
 a*b
 b*a
 
@@ -72,43 +85,38 @@ p_distributiva = 'a ( b + c ) = a b + a c';
 a=4;
 b=5;
 c=6;
-% Prooducto
 a*(b+c)
-a*b+a*c
+a*b+(a*c)
 
 % Neutro aditivo
 display('Neutro aditivo')
 p_neutroA = 'a + 0 = a';
 a=3;
-% Adicion
 a+0
-a
+
 p_neutroA2 = 'Ojo: a + 0 = 0 + a ---> es conmutativa';
 a=3;
-% Adicion
-a+0
+a+0;
 0+a
 
 % Neutro multiplicativo
-display('Neutro multiplicativo')
+display('Neutro multiplicativo');
 p_neutroM = 'a ( 1 ) = a';
 a=3;
-% Producto
 a*(1)
-a
+
 % Inverso aditivo
-display('Inverso aditivo')
+display('Inverso aditivo');
 p_inversoA = 'a + -a = 0';
 a=3;
-% Adicion Sutraccion
-a+-a
+a+(-a)
 
 % Inverso multiplicativo o recíproco
 display('Inverso multiplicativo')
 p_inversoM = 'a ( 1/a ) = 1';
 a=3;
-% Multiplicacion cociente
 a*(1/a)
+
 % Propiedad transitiva (| enconces)
 p_transitiva = 'si a > b y b > c | a > c';
 a=5;
@@ -117,6 +125,7 @@ c=3;
 a>b
 b>c
 a>c
+
 p_transitiva2 = 'si a = b y b = c | a = c';
 a=2;
 b=2;
@@ -130,10 +139,12 @@ p_tricotomia = 'a > b';
 a=3;
 b=2;
 a>b
+
 p_tricotomia2 = 'a = b';
 a=3;
 b=3;
-b=a
+a=b
+
 p_tricotomia3 = 'a < b';
 a=2;
 b=3;
