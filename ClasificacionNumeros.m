@@ -20,7 +20,7 @@ c_numero_Reales = 'ℝ = { I, ℚ, ℤ, ℕ }';
 % Propiedades de los números, sean a,b,c,d,e ∈ ℝ
 
 % Propiedades de ∈ (Cerradura)
-display('Propiedades de Cerradura');
+disp('Propiedades de Cerradura');
 p_cerradura = 'a + b ∈ ℝ';
 a=3;
 b=5;
@@ -34,7 +34,7 @@ p_cerradura4 = '∈ = pertenecia';
 '{-?, -3, -2, -1, 0, 1, 2, 3, ?}';
 
 % Propiedad asociativa
-display('Propiedad asociativa');
+disp('Propiedad asociativa');
 p_asociativa = 'a + ( b + c )';
 a=5;
 b=6;
@@ -42,6 +42,7 @@ c=7;
 a+(b+c)
 
 p_asociativa2 = 'a ( b c ) = ( a b ) c';
+disp('Propiedad asociativa2');
 a=5;
 b=1;
 c=2;
@@ -49,6 +50,7 @@ a*(b*c)
 (a*b)*c
 
 p_asociativa2 = 'a ( b c ) = ( a b ) c';
+disp('Propiedad asociativa2');
 a=5;
 b=4;
 c=3;
@@ -56,6 +58,7 @@ a*(b*c)
 (a*b)*c
 
 p_asociativa3 = '3 + ( 8 - 10 ) = ( 8 + 3 ) - 10';
+disp('Propiedad asociativa3');
 a=4;
 b=8;
 c=12;
@@ -63,63 +66,65 @@ a+(b-c)
 (b+a)-c
 
 % Propiedad conmutativa
-display('Propiedad conmutativa');
+disp('Propiedad conmutativa');
 p_conmutativa = 'a + b = b + a';
 a=3;
 b=6;
 a+b
 b+a
 
-% Adicion
-a=4
-b=5
-a+b
-b+a
 p_conmutativa2 = 'a b = b a';
+disp('Propiedad conmutativa2');
 a=3;
 b=4;
 a*b
+
+% Adicion
 b*a
 
 % Propiedad distributiva
-display('Propiedad distributiva');
+disp('Propiedad distributiva');
 p_distributiva = 'a ( b + c ) = a b + a c'; 
 a=4;
 b=5;
 c=6;
 a*(b+c)
+% Adicion
 a*b+(a*c)
 
 % Neutro aditivo
-display('Neutro aditivo');
+disp('Neutro aditivo');
 p_neutroA = 'a + 0 = a';
 a=3;
+% Adicion
 a+0
 
 p_neutroA2 = 'Ojo: a + 0 = 0 + a ---> es conmutativa';
+disp('Neutro aditivo2');
 a=3;
 a+0;
 0+a
 
 % Neutro multiplicativo
-display('Neutro multiplicativo');
+disp('Neutro multiplicativo');
 p_neutroM = 'a ( 1 ) = a';
 a=3;
 a*(1)
 
 % Inverso aditivo
-display('Inverso aditivo');
+disp('Inverso aditivo)');
 p_inversoA = 'a + -a = 0';
 a=3;
 a+(-a)
 
 % Inverso multiplicativo o recíproco
-display('Inverso multiplicativo')
+disp('Inverso multiplicativo')
 p_inversoM = 'a ( 1/a ) = 1';
 a=3;
 a*(1/a)
 
 % Propiedad transitiva (| enconces)
+disp('Propiedad transitiva (| enconces)');
 p_transitiva = 'si a > b y b > c | a > c';
 a=5;
 b=4;
@@ -127,7 +132,7 @@ c=3;
 a>b
 b>c
 a>c
-
+disp('Propiedad conmutativa2');
 p_transitiva2 = 'si a = b y b = c | a = c';
 a=2;
 b=2;
@@ -135,10 +140,11 @@ c=2;
 a=b
 b=c
 a=c
+
 %Propiedad transitividad 
+disp('Propiedad transitidad');
 p_transitiv=  'si a   >  b  & b >  c |  a  >  c ' ;
 p_transitiva2 =  ' si  a  =  b  & b  =  c | a  =  c';
-disp (' Propiedad Transitividad')
 a = 12;
 b= 6;
 c = 3;
@@ -146,17 +152,20 @@ a >  b  && b > c | a > c
 a == b  && b == c  |  a == c 
 
 % Tricotomía (raíz del algebra) siempre se pueden comparar
+disp('Tricotomía (raíz del algebra) siempre se pueden comparar');
 p_tricotomia = 'a > b';
 a=3;
 b=2;
 a>b
 
 p_tricotomia2 = 'a = b';
+disp('Tricotomía2');
 a=3;
 b=3;
 a=b
 
 p_tricotomia3 = 'a < b';
+disp('Tricotomía3');
 a=2;
 b=3;
 a<b
@@ -172,6 +181,7 @@ a>b
 b>c
 a>c
 p_transitiva2 = 'si a=b y b=c | a=c';
+disp('Propiedad transitiva2');
 a = 5;
 b = 5;
 c = 5;
