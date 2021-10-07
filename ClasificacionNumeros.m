@@ -20,7 +20,7 @@ c_numero_Reales = 'ℝ = { I, ℚ, ℤ, ℕ }';
 % Propiedades de los números, sean a,b,c,d,e ∈ ℝ
 
 % Propiedades de ∈ (Cerradura)
-display('Propiedades de Cerradura')
+display('Propiedades de Cerradura');
 p_cerradura = 'a + b ∈ ℝ';
 a=3;
 b=5;
@@ -80,7 +80,7 @@ a*b
 b*a
 
 % Propiedad distributiva
-display('Propiedad distributiva')
+display('Propiedad distributiva');
 p_distributiva = 'a ( b + c ) = a b + a c'; 
 a=4;
 b=5;
@@ -89,7 +89,7 @@ a*(b+c)
 a*b+(a*c)
 
 % Neutro aditivo
-display('Neutro aditivo')
+display('Neutro aditivo');
 p_neutroA = 'a + 0 = a';
 a=3;
 a+0
@@ -159,8 +159,8 @@ b=3;
 a<b
 
 % Propiedad transitiva (| entonces) 
-  disp '9. Propiedad transitiva'
-  disp ("Para esta propiedad usaremos otras variables, las cuales son:")
+  disp ('9. Propiedad transitiva');
+  disp ('Para esta propiedad usaremos otras variables, las cuales son:');
 p_transitiva = 'si a>b y b>c | a>c';
 a=7;
 b=6;
@@ -176,27 +176,27 @@ a=b
 b=c
 a=c
   if (a > b)
-    disp ("En este caso a es mayor que b");
+    disp ('En este caso a es mayor que b');
   endif
   if (b>c)
-    disp ("Y b es mayor que c");
+    disp ('Y b es mayor que c');
 endif
   if (a>c)
-    disp ("Por lo que a es mayor que c");
+    disp ('Por lo que a es mayor que c');
 endif
-  disp ("10. Propiedad transitiva 2")
-  disp ("Volveremos a usar otras variables, las cuales son:")
+  disp ('10. Propiedad transitiva 2')
+  disp ('Volveremos a usar otras variables, las cuales son:')
 a = 20;
 b = 20;
 c = 20;
    if (a==b)
-    disp ("En este caso a es igual que b");
+    disp ('En este caso a es igual que b');
   endif
   if (b==c)
-    disp ("Y b es igual que c");
+    disp ('Y b es igual que c');
 endif
   if (a==c)
-    disp ("Por lo que a es igual que c");
+    disp ('Por lo que a es igual que c');
 endif
 
 
